@@ -95,7 +95,7 @@ const Tenzies = () => {
       <button onClick={win ? newGame : rollTenzies}>
         {win ? "New Game" : "Roll"}
       </button>
-      <button onClick={changeMode}>Change mode</button>
+      {/* <button onClick={changeMode}>Change mode</button> */}
     </>
   );
 };
